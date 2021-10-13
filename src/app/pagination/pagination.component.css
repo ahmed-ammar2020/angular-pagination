@@ -1,0 +1,18 @@
+.disabled {
+  pointer-events: none;
+}
+
+.page-link:focus {
+  box-shadow: none !important;
+}
+
+.content-width {
+  width: 50%;
+}
+
+@media screen and (max-width: 992px) {
+  .content-width {
+    width: 100%;
+  }
+
+}
